@@ -53,7 +53,7 @@ function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Student", "Full-Stack Web development", "UI/UX designer"],
+        strings: ["Student", "Code Enthusiast", "Full-Stack Web development", "UI/UX designer"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,
@@ -120,9 +120,9 @@ const srtop = ScrollReveal({
 });
 
 /* SCROLL HOME */
-srtop.reveal('.home .content h3',{delay: 200}); 
-srtop.reveal('.home .content p',{delay: 200}); 
-srtop.reveal('.home .content .btn',{delay: 200}); 
+srtop.reveal('.home .content h3',{delay: 100}); 
+srtop.reveal('.home .content p',{delay: 100}); 
+srtop.reveal('.home .content .btn',{delay: 100}); 
 
 srtop.reveal('.home .image',{delay: 400}); 
 srtop.reveal('.home .linkedin',{interval: 600}); 
@@ -135,27 +135,27 @@ srtop.reveal('.home .dev',{interval: 600});
 
 
 /* SCROLL ABOUT */
-srtop.reveal('.about .content h3',{delay: 300});
-srtop.reveal('.about .content .tag',{delay: 400}); 
-srtop.reveal('.about .content p',{delay: 300}); 
-srtop.reveal('.about .content .box-container',{delay: 300}); 
-srtop.reveal('.about .content .resumebtn',{delay: 300}); 
+srtop.reveal('.about .content h3',{delay: 100});
+srtop.reveal('.about .content .tag',{delay: 100}); 
+srtop.reveal('.about .content p',{delay: 100}); 
+srtop.reveal('.about .content .box-container',{delay: 100}); 
+srtop.reveal('.about .content .resumebtn',{delay: 100}); 
 
 
 /* SCROLL SKILLS */
-srtop.reveal('.skills .container',{interval: 200}); 
-srtop.reveal('.skills .container .bar',{delay: 400}); 
+srtop.reveal('.skills .container',{interval: 100}); 
+srtop.reveal('.skills .container .bar',{delay: 100}); 
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box',{interval: 200}); 
+srtop.reveal('.education .box',{interval: 100}); 
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box',{interval: 200}); 
+srtop.reveal('.work .box',{interval: 100}); 
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline',{delay: 400});
-srtop.reveal('.experience .timeline .container',{interval: 400}); 
+srtop.reveal('.experience .timeline',{delay: 100});
+srtop.reveal('.experience .timeline .container',{interval: 100}); 
 
 /* SCROLL CONTACT */
-srtop.reveal('.contact .container',{delay: 400});
-srtop.reveal('.contact .container .form-group',{delay: 400});
+srtop.reveal('.contact .container',{delay: 100});
+srtop.reveal('.contact .container .form-group',{delay: 100});
