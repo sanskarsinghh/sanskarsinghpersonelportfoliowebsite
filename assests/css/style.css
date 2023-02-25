@@ -547,7 +547,7 @@ header .navbar ul li a:hover{
   background: #f38b03;
 }
 .skills .container .col .bar .reactjs:before{
-  width: 43%;
+  width: 65%;
   background: #2962ff;
 }
 .skills .container .col .bar .python:before{
